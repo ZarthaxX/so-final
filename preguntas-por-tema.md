@@ -979,33 +979,7 @@ and e2fsck writes them into the filesystem.
 - DAC Y MAC
   <details>
     <summary>Respuesta</summary>
-    IMPORTANTE: la respuesta que viene abajo no es la mejor, me dijo profe el que mac es dac mas agregarle lo de mac bla bla
-    DAC (Discretionary Access Control)
-
-    Se le pone a un archivo permisos donde se indica para cada usuario los permisos sobre el archivo
-
-    Los usuarios mismos son los que pueden editar sus permisos, lo cual es peligroso.
-
-    Permisos en DAC en UNIX
-    
-    Los archivos tienen asociado el usuario dueño, el grupo dueño, y una seria de atributos que dicen:
-    
-      tipo: si es un file, un directorio, un pipe
-      r: si el dueño puede leer
-
-      w: si el dueño puede escribir
-    
-      x: si el dueño puede ejecutar
-
-    estos atributos estan presentes tanto para el dueño, el grupo y los usuarios. en Windows permite tener mas granularidad utilizando ACLs que son listas de control de acceso.
-  
-    MAC (Mandatory Access Control): 
-      
-      Cada usuario tiene un nivel de seguridad 
-      
-      Todo lo que genera ese usuario queda con una restriccion que impide el acceso para accesos superiores
-      
-      Ningun archivo puede ser bajado de nivel
+    COMPLETAR
   </details>
 - RSA
   <details>
